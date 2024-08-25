@@ -1,0 +1,55 @@
+main {
+  width: 984px;
+  margin-left: 296px;
+  margin-bottom: 40px;
+}
+
+header {
+  margin-bottom: 44px;
+}
+
+.comment {
+  font-size: 12px;
+  color: #6c757d;
+}
+.list-group {
+  width: 320px;
+  margin-top: 6px;
+  h2 {
+    font-size: 12px;
+  }
+  small {
+    font-size: 12px;
+  }
+}
+
+.card-r {
+  margin-top: 6px;
+  width: 584px;
+  .title {
+    font-size: 12px;
+  }
+  .downloan-btn {
+    border: 1px #ced4da solid;
+    border-radius: 2px;
+    opacity: 1;
+    padding: 10px 16px;
+    text-align: center;
+    margin-top: 16px;
+
+    margin-left: 49px;
+  }
+  .card {
+    &-header {
+      padding: 8px 12px;
+    }
+    &-desc {
+      padding-left: 48px;
+      font-size: 14px;
+    }
+  }
+  code {
+    font-size: 14px;
+    background-color: #f8f9fa;
+  }
+}
